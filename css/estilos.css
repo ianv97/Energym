@@ -1,0 +1,256 @@
+﻿html {min-height:100%;}
+
+body {position:relative; background-color:black; z-index:10000000; min-height:100%;}
+
+body::-webkit-scrollbar {background-color:black;}
+
+body::-webkit-scrollbar-thumb{background-color:#ffc107; border-radius:10px;}
+
+
+
+.lateral {right:0; top:0; z-index:10000001; min-height:100vh; height:100%; padding-top:100px;}
+
+#iniciar-sesion {font-size: 34px; font-weight:bold;}
+
+#copyright {position:fixed; font-size:1vw; font-weight:bold; margin:0 0; right:1vw; bottom:0px; color:white; z-index: 10000002;}
+
+.recuadro {
+
+border: 1vw solid transparent;
+
+background: linear-gradient(white,white), url(https://energym.tk/imagen/recuadro.jpg);
+
+background-clip: padding-box, border-box;
+
+background-size: cover;
+
+background-origin: border-box;}
+.inputcentro::-webkit-input-placeholder{text-align:center !important;}
+.inputcentro{text-align:center !important;}
+
+
+
+/*Barra de menú*/
+
+.barramenu {z-index:10000002}
+
+.opciones1 {font-size:30px; font-weight:bold; margin:-10px 25px;}
+
+.botones1 {color:black; height:auto; width:auto; font-size:20px; font-weight:bold;}
+
+.botones1:hover {color:white;}
+
+#energym {font-size:30px; text-decoration:underline;}
+
+.botones1.active{
+
+-webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+-moz-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);}
+
+
+
+/*Index*/
+
+.control_carousel {opacity:1; z-index:10000000;}
+
+.logo-carousel {width:15%; font-size:2vw; text-decoration:underline; margin:auto;}
+
+
+
+/*Noticias*/
+
+.card-img-top {padding: 20px 20px;}
+
+
+
+/*Contacto*/
+
+#contacto-titulo {font-weight:bold; text-decoration:underline; margin:auto; font-size:5vw; display: inline-block;}
+
+#contacto-titulo-imagen {display:inline-block; margin:0 2vw; width: 7vw;}
+
+#contacto-nombre {width:180px; margin-left:10vw; top:5vw; display: inline-flex;}
+
+#contacto-apellido {width:180px; margin-left:2vw; top:5vw; display: inline-flex;}
+
+#contacto-email {width: 270px; margin:0 10vw; top:5vw;}
+
+#contacto-asunto {width: 270px; margin:0 10vw; top:5vw;}
+
+#contacto-mensaje {width: 45vw; height: 145px; margin:0 10vw; top:5vw;}
+
+#contacto-boton-envio {margin: 6vw 10vw; top:5vw; font-weight:bold}
+
+
+
+/*Registro*/
+
+#registro-formulario {position:relative; background-image:url(https://energym.tk/imagen/fondo_formulario.jpg);z-index: 10000000;}
+
+#registro-jumbo {margin:0 3vw; display: inline;}
+
+#registro-titulo {font-weight:bold; text-decoration:underline; margin:auto; font-size:5vw; display: inline;}
+
+#registro-titulo-imagen {display:inline; margin:0 2vw; width: 7vw;}
+
+#registro-usuario {width: 180px; margin:0 10vw; top:1vw;}
+
+#registro-contraseña {width: 180px; margin:0 10vw; top:1vw;}
+
+#registro-confcontraseña {width: 180px; margin:0 10vw; top:1vw;}
+
+#registro-email {width: 250px; margin:0 10vw; top:1vw;}
+
+#registro-nombre {width:180px; margin-left:10vw; top:1vw; display: inline-flex;}
+
+#registro-nombreg {width:180px; margin-left:10vw; top:1vw;}
+
+#registro-apellido {width:180px; top:1vw; display: inline-flex}
+
+#registro-apellidog {width:180px; top:1vw;}
+
+#registro-fecha-nac {width:180px; margin:0 10vw; top:1vw;}
+
+#registro-lfecha-nac {color:white; font-weight:bold;}
+
+#registro-dni {width: 180px; margin:0 10vw; top:1vw;}
+
+#registro-sexom {margin-left:10vw; top:1vw; color:white; font-weight:bold;}
+
+#registro-sexof {margin-left:2vw; top:1vw; color:white; font-weight:bold;}
+
+#contenedor-foto {height: 0px; width:300px; margin-left:10vw; margin-bottom:80px;top:1vw; color:white; font-weight:bold;}
+
+#registro-boton-recibir {margin-left:10vw; margin-bottom:1vw; top:1vw; width:280px;}
+
+#registro-boton-aceptar {margin-left:10vw; margin-bottom:1vw; top:1vw; width:330px;}
+
+#registro-boton-envio {margin-top:1vw; margin-bottom:2vw; margin-left:10vw; top:1vw; font-weight:bold;}
+
+#registro-boton-cargo {font-weight:bold; color:teal;}
+
+
+
+/*Sidebar usuario*/
+
+.subotones1 {font-weight:bold; border-radius: 22px;}
+
+.subotones1:hover {color:white;}
+
+#foto-usuario{max-height: 10vw; max-width: 13vw;}
+
+#nya-usuario {font-weight:bold; font-size:20px;}
+
+
+
+/*Perfil*/
+
+#perfil-foto {margin-top:4vw; margin-right:22vw; max-height:175px; max-width:300px;}
+
+#perfil-contenedor-foto {height: 0px; width:300px; margin-right:22vw; margin-bottom:80px; color:white; font-weight:bold;}
+
+#perfil-email {width: 250px; margin-right: 22vw;}
+
+#perfil-boton-cambiarcontraseña {margin-right:22vw;}
+
+#perfil-nombre {width:180px;}
+
+#perfil-apellido {width:180px;}
+
+#perfil-fecha-nac {width: 180px;}
+
+#perfil-altura {width:180px;}
+
+#perfil-dni {width:180px;}
+
+#perfil-peso {width:180px;}
+
+#perfil-celular {width:180px;}
+
+#perfil-talla {width:180px;}
+
+#perfil-boton-envio {font-weight:bold; margin-right:22vw;}
+
+.perfil-fila {margin-right: 20vw;}
+
+#lncontraseña {font-size:16px; font-weight:bold;}
+
+#ncontraseña {width:150px;}
+
+#lrncontraseña {font-size:16px; font-weight:bold;}
+
+#rncontraseña {width:150px;}
+
+#lacontraseña {font-size:16px; font-weight:bold;}
+
+#acontraseña {width:150px;}
+
+
+
+/*Rutinas*/
+
+#rutinas-card-titulo{text-align:center; font-size:25px; text-decoration:underline;}
+
+.nom{margin-left:1vw; font-size:16px; font-weight:bold;}
+
+.ser{width:3em; font-size:16px;}
+
+.rep{width:3em; font-size:16px;}
+
+.subtmod{font-weight:bold;}
+
+#ejmod{text-decoration:underline;}
+
+
+
+/*Asistencia*/
+
+#asistencia-card-titulo{text-align:center; text-decoration:underline;}
+
+#asistencia-finicio{width:12em;}
+
+#asistencia-ffin{width:12em;}
+
+#asistencia-lfinicio{font-weight:bold; font-size:16px;}
+
+#asistencia-lffin{font-weight:bold; font-size:16px;}
+
+#asistencia-divpdf{top:190px;right:70px;}
+
+#asistenciatot-finicio{width:12em;}
+
+#asistenciatot-ffin{width:12em;}
+
+#asistenciatot-lfinicio{font-weight:bold; font-size:16px;}
+
+#asistenciatot-lffin{font-weight:bold; font-size:16px;}
+
+#asistenciatot-divpdf{top:190px;right:70px;}
+
+
+/*Asistencia de Empleados*/
+
+#asistenciaemp-card-titulo{text-align:center; text-decoration:underline;}
+
+#asistenciaemp-finicio{width:12em;}
+
+#asistenciaemp-ffin{width:12em;}
+
+#asistenciaemp-lfinicio{font-weight:bold; font-size:16px;}
+
+#asistenciaemp-lffin{font-weight:bold; font-size:16px;}
+
+#asistenciaemp-divpdf{top:190px;right:70px;}
+
+#asistenciaemptot-finicio{width:12em;}
+
+#asistenciaemptot-ffin{width:12em;}
+
+#asistenciaemptot-lfinicio{font-weight:bold; font-size:16px;}
+
+#asistenciaemptot-lffin{font-weight:bold; font-size:16px;}
+
+#asistenciaemptot-divpdf{top:190px;right:70px;}
